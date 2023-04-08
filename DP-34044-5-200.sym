@@ -1,0 +1,2139 @@
+FormatVersion=5.0 // Do not edit!
+Title="DP-34044-5-200"
+
+{ENUMS}
+
+enum NMT_CMD(1="START", 2="STOP", 128="PRE-OPERATIONAL", 
+  129="RESET APPLICATION", 130="RESET COMMUNICATION")
+enum OUTPUT_MODE_1A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_2A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_3A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_4A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_5A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_6A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_7A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_8A(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_1B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_2B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_3B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_4B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_5B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_6B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_7B(0="DISABLE", 1="DIGITAL PNP")
+enum OUTPUT_MODE_8B(0="DISABLE", 1="DIGITAL PNP")
+enum ENABLED_BOOL(0="DISABLED", 1="ENABLED")
+
+{SENDRECEIVE}
+
+[DIGOUT_module_01]
+ID=201h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_02]
+ID=202h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_03]
+ID=203h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_04]
+ID=204h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_05]
+ID=205h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_06]
+ID=206h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_07]
+ID=207h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_08]
+ID=208h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_09]
+ID=209h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_10]
+ID=20Ah
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_11]
+ID=20Bh
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_12]
+ID=20Ch
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_13]
+ID=20Dh
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_14]
+ID=20Eh
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_15]
+ID=20Fh
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[DIGOUT_module_16]
+ID=210h
+DLC=4
+Var=Output_1A unsigned 0,1
+Var=Output_1B unsigned 1,1
+Var=Output_2A unsigned 2,1
+Var=Output_2B unsigned 3,1
+Var=Output_3A unsigned 4,1
+Var=Output_3B unsigned 5,1
+Var=Output_4A unsigned 6,1
+Var=Output_4B unsigned 7,1
+Var=Output_5A unsigned 8,1
+Var=Output_5B unsigned 9,1
+Var=Output_6A unsigned 10,1
+Var=Output_6B unsigned 11,1
+Var=Output_7A unsigned 12,1
+Var=Output_7B unsigned 13,1
+Var=Output_8A unsigned 14,1
+Var=Output_8B unsigned 15,1
+Var=Port_1 unsigned 16,1
+Var=Port_2 unsigned 17,1
+Var=Port_3 unsigned 18,1
+Var=Port_4 unsigned 19,1
+Var=Port_5 unsigned 20,1
+Var=Port_6 unsigned 21,1
+Var=Port_7 unsigned 22,1
+Var=Port_8 unsigned 23,1
+
+[STAT_module_01]
+ID=1A1h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_02]
+ID=1A2h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_03]
+ID=1A3h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_04]
+ID=1A4h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_05]
+ID=1A5h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_06]
+ID=1A6h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_07]
+ID=1A7h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_08]
+ID=1A8h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_09]
+ID=1A9h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_10]
+ID=1AAh
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_11]
+ID=1ABh
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_12]
+ID=1ACh
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_13]
+ID=1ADh
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_14]
+ID=1AEh
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_15]
+ID=1AFh
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[STAT_module_16]
+ID=1B0h
+DLC=4
+Var=D1ControllerModeOutputReset unsigned 0,2 /e:ENABLED_BOOL
+Var=D2MessageDPLF1 unsigned 2,2 /e:ENABLED_BOOL
+Var=D3MessageDPLF2 unsigned 4,2 /e:ENABLED_BOOL
+Var=D4MessagesDPLT1andDPLT2 unsigned 6,2 /e:ENABLED_BOOL
+Var=D5LowOvervoltagemessage unsigned 8,2 /e:ENABLED_BOOL
+Var=D6Rawanalogvalues unsigned 10,2 /e:ENABLED_BOOL
+Var=Active_Fault_Code unsigned 16,8
+Var=User_ID unsigned 24,8
+
+[DPLF1_module_01]
+ID=1C1h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_02]
+ID=1C2h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_03]
+ID=1C3h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_04]
+ID=1C4h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_05]
+ID=1C5h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_06]
+ID=1C6h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_07]
+ID=1C7h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_08]
+ID=1C8h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_09]
+ID=1C9h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_10]
+ID=1CAh
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_11]
+ID=1CBh
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_12]
+ID=1CCh
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_13]
+ID=1CDh
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_14]
+ID=1CEh
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_15]
+ID=1CFh
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF1_module_16]
+ID=1D0h
+DLC=8
+Var=D1 unsigned 0,2
+Var=D2 unsigned 2,2
+Var=D3 unsigned 4,2
+Var=D4 unsigned 6,2
+Var=D5 unsigned 8,2
+Var=D6 unsigned 10,2
+Var=D7 unsigned 12,2
+Var=D8 unsigned 14,2
+Var=D9 unsigned 16,2
+Var=D10 unsigned 18,2
+Var=D11 unsigned 20,2
+Var=D12 unsigned 22,2
+Var=D13 unsigned 24,2
+Var=D14 unsigned 26,2
+Var=D15 unsigned 28,2
+Var=D16 unsigned 30,2
+Var=D17 unsigned 32,2
+Var=D18 unsigned 34,2
+Var=D19 unsigned 36,2
+Var=D20 unsigned 38,2
+Var=D21 unsigned 40,2
+Var=D22 unsigned 42,2
+Var=D23 unsigned 44,2
+Var=D24 unsigned 46,2
+Var=D25 unsigned 48,2
+Var=D26 unsigned 50,2
+Var=Save_Counter unsigned 56,8
+
+[DPLF2_module_01]
+ID=1E1h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_02]
+ID=1E2h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_03]
+ID=1E3h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_04]
+ID=1E4h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_05]
+ID=1E5h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_06]
+ID=1E6h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_07]
+ID=1E7h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_08]
+ID=1E8h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_09]
+ID=1E9h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_10]
+ID=1EAh
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_11]
+ID=1EBh
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_12]
+ID=1ECh
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_13]
+ID=1EDh
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_14]
+ID=1EEh
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_15]
+ID=1EFh
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLF2_module_16]
+ID=1F0h
+DLC=8
+Var=Analog1_VBAT unsigned 0,16
+Var=Analog2_TEMP unsigned 16,16
+Var=Analog3_CNFG1 unsigned 32,16
+Var=Analog4_CNFG2 unsigned 48,16
+
+[DPLT1_module_01]
+ID=2A1h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_02]
+ID=2A2h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_03]
+ID=2A3h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_04]
+ID=2A4h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_05]
+ID=2A5h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_06]
+ID=2A6h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_07]
+ID=2A7h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_08]
+ID=2A8h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_09]
+ID=2A9h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_10]
+ID=2AAh
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_11]
+ID=2ABh
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_12]
+ID=2ACh
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_13]
+ID=2ADh
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_14]
+ID=2AEh
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_15]
+ID=2AFh
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT1_module_16]
+ID=2B0h
+DLC=8
+Var=Port_1A_amp_data unsigned 0,8
+Var=Port_1B_amp_data unsigned 8,8
+Var=Port_2A_amp_data unsigned 16,8
+Var=Port_2B_amp_data unsigned 24,8
+Var=Port_3A_amp_data unsigned 32,8
+Var=Port_3B_amp_data unsigned 40,8
+Var=Port_4A_amp_data unsigned 48,8
+Var=Port_4B_amp_data unsigned 56,8
+
+[DPLT2_module_01]
+ID=2C1h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_02]
+ID=2C2h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_03]
+ID=2C3h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_04]
+ID=2C4h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_05]
+ID=2C5h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_06]
+ID=2C6h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_07]
+ID=2C7h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_08]
+ID=2C8h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_09]
+ID=2C9h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_10]
+ID=2CAh
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_11]
+ID=2CBh
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_12]
+ID=2CCh
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_13]
+ID=2CDh
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_14]
+ID=2CEh
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_15]
+ID=2CFh
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[DPLT2_module_16]
+ID=2D0h
+DLC=8
+Var=Port_5A_amp_data unsigned 0,8
+Var=Port_5B_amp_data unsigned 8,8
+Var=Port_6A_amp_data unsigned 16,8
+Var=Port_6B_amp_data unsigned 24,8
+Var=Port_7A_amp_data unsigned 32,8
+Var=Port_7B_amp_data unsigned 40,8
+Var=Port_8A_amp_data unsigned 48,8
+Var=Port_8B_amp_data unsigned 56,8
+
+[FAULT_module_01]
+ID=3C1h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_02]
+ID=3C2h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_03]
+ID=3C3h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_04]
+ID=3C4h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_05]
+ID=3C5h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_06]
+ID=3C6h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_07]
+ID=3C7h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_08]
+ID=3C8h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_09]
+ID=3C9h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_10]
+ID=3CAh
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_11]
+ID=3CBh
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_12]
+ID=3CCh
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_13]
+ID=3CDh
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_14]
+ID=3CEh
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_15]
+ID=3CFh
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[FAULT_module_16]
+ID=3D0h
+DLC=8
+Var=Fault_Counter_F1 unsigned 0,8
+Var=Fault_Counter_F2 unsigned 8,8
+Var=Fault_Counter_F3 unsigned 16,8
+Var=Fault_Counter_F4 unsigned 24,8
+Var=Fault_Counter_F5 unsigned 32,8
+Var=Fault_Counter_F6 unsigned 40,8
+Var=Fault_Counter_F7 unsigned 48,8
+Var=Fault_Counter_F8 unsigned 56,8
+
+[HEARTBEAT_module_01]
+ID=701h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_01]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_01]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_01]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_02]
+ID=702h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_02]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_02]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_02]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_03]
+ID=703h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_03]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_03]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_03]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_04]
+ID=704h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_04]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_04]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_04]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_05]
+ID=705h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_05]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_05]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_05]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_06]
+ID=706h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_06]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_06]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_06]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_07]
+ID=707h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_07]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_07]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_07]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_08]
+ID=708h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_08]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_08]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_08]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_09]
+ID=709h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_09]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_09]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_09]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_10]
+ID=70Ah
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_10]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_10]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_10]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_11]
+ID=70Bh
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_11]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_11]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_11]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_12]
+ID=70Ch
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_12]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_12]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_12]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_13]
+ID=70Dh
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_13]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_13]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_13]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_14]
+ID=70Eh
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_14]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_14]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_14]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_15]
+ID=70Fh
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_15]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_15]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_15]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
+[HEARTBEAT_module_16]
+ID=710h
+DLC=1
+Mux="BOOT-UP" 0,8 0 
+
+[HEARTBEAT_module_16]
+DLC=1
+Mux=STOPPED 0,8 4 
+
+[HEARTBEAT_module_16]
+DLC=1
+Mux=OPERATIONAL 0,8 5 
+
+[HEARTBEAT_module_16]
+DLC=1
+Mux="PRE-OPERATIONAL" 0,8 7Fh
+
