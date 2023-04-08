@@ -991,7 +991,6 @@ Var=Power_Bus_P1 unsigned 48,2 /e:IO_Status
 Var=Power_Bus_P2 unsigned 50,2 /e:IO_Status
 Var=Save_CTR_Config unsigned 56,8
 
-
 ["AMP_1-4_Module-224"]
 ID=18FF3BE0h
 Type=J1939PG
