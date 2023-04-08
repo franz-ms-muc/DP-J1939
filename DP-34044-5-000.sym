@@ -1253,11 +1253,13 @@ Sig=Hardware_Version unsigned 4 /max:1
 {SENDRECEIVE}
 
 
+
 [RQST]
 ID=18EAFEFEh // Request
 Type=J1939PG
 Len=3
 Var=ParameterGroupNumber unsigned 0,24 /ln:"Parameter Group Number (RQST)" /spn:2540
+
 
 [ACM]
 ID=18EEFEFEh // Address Claimed

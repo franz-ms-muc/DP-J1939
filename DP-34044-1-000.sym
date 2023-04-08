@@ -3,6 +3,7 @@ Title="xtremeDB -1 J1939 symbol file"
 IDMask=51h
 
 {ENUMS}
+Enum=Pin(0="Off", 1="On", 2="Fault", 3="Not available")
 Enum=ManufacturerCodes(0="Reserved",
   1="Bendix Commercial Vehicle Systems LLC", // (formerly Allied Signal Inc.) Elyria, OH   USA
   2="Allison Transmission, Inc.", // Indianapolis, IN   USA
@@ -1217,6 +1218,42 @@ Enum=Input_Mode(0="Disable", 1="Digital PNP", 2="Digital NPN", 3="Analog 4-20mA"
 Enum=IO_Status(0="Off", 1="On", 2="Fault")
 
 {SIGNALS}
+Sig=Output_1A Pin 2
+Sig=Output_1B Pin 2
+Sig=Output_2A Pin 2
+Sig=Output_2B Pin 2
+Sig=Output_3A Pin 2
+Sig=Output_3B Pin 2
+Sig=Output_4A Pin 2
+Sig=Output_4B Pin 2
+Sig=Output_5A Pin 2
+Sig=Output_5B Pin 2
+Sig=Output_6A Pin 2
+Sig=Output_6B Pin 2
+Sig=Output_7A Pin 2
+Sig=Output_7B Pin 2
+Sig=Output_8A Pin 2
+Sig=Output_8B Pin 2
+Sig=COMMAND unsigned 8 -h /max:1
+Sig=Version unsigned 8
+Sig=Revision unsigned 8
+Sig=Status_01 Pin 2 /ln:"Factory Default Configuration"
+Sig=Status_02 Pin 2 /ln:"Configuration Saved (module is configured)"
+Sig=Status_03 Pin 2 /ln:"Alternate Configuration Received"
+Sig=Status_04 Pin 2 /ln:"Node Alive"
+Sig=Status_05 Pin 2 /ln:"Node Fault Present"
+Sig=Status_06 Pin 2 /ln:"Fault Count not Zero"
+Sig=Status_07 Pin 2 /ln:"True when Message Command = 0x58 received"
+Sig=Status_08 Pin 2 /ln:"Invalid Configuration Flag"
+Sig=Status_09 Pin 2 /ln:"True when Message Command = 0x52h received"
+Sig=Status_10 Pin 2 /ln:"True when Message Command = 0x53h received"
+Sig=Status_11 Pin 2 /ln:"True when Message Command = 0x54h received"
+Sig=Status_12 Pin 2 /ln:"True when Message Command = 0x55h received"
+Sig=Status_13 Pin 2 /ln:"True when Message Command = 0x56h received"
+Sig=Status_14 Pin 2 /ln:"True when Message Command = 0x57h received"
+Sig=Fault_Code unsigned 8 /max:1
+Sig=User_ID unsigned 8 /max:1
+Sig=Hardware_Version unsigned 4 /max:1
 Sig="Temp °C" unsigned 12 /u:°C /f:0.0164 /o:1 /p:1
 Sig="Temp °F" unsigned 12 /u:°F /f:0.1 /o:-100
 Sig=Voltage unsigned 10 /u:V /f:0.1
@@ -3535,3 +3572,50 @@ Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
 Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
+
+
+[CTRL1_00]
+ID=18EFE0FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+
+[CTRL1_01]
+ID=18EFE1FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
