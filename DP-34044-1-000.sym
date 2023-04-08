@@ -18,7 +18,7 @@ Sig=Voltage unsigned 10 /u:V /f:0.1
 ["DIGITAL_IN_Module-224"]
 ID=18FF15E0h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -31,7 +31,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-225"]
 ID=18FF15E1h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -44,7 +44,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-226"]
 ID=18FF15E2h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -57,7 +57,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-227"]
 ID=18FF15E3h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -70,7 +70,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-228"]
 ID=18FF15E4h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -83,7 +83,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-229"]
 ID=18FF15E5h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -96,7 +96,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-230"]
 ID=18FF15E6h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -109,7 +109,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-231"]
 ID=18FF15E7h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -122,7 +122,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-232"]
 ID=18FF15E8h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -135,7 +135,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-233"]
 ID=18FF15E9h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -148,7 +148,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-234"]
 ID=18FF15EAh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -161,7 +161,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-235"]
 ID=18FF15EBh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -174,7 +174,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-236"]
 ID=18FF15ECh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -187,7 +187,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-237"]
 ID=18FF15EDh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -200,7 +200,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-238"]
 ID=18FF15EEh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -213,7 +213,7 @@ Var=Input_8B unsigned 30,2
 ["DIGITAL_IN_Module-239"]
 ID=18FF15EFh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5A unsigned 16,2
 Var=Input_5B unsigned 18,2
 Var=Input_6A unsigned 20,2
@@ -226,231 +226,231 @@ Var=Input_8B unsigned 30,2
 ["ANALOG_IN_56_Module-224"]
 ID=18FF18E0h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-225"]
 ID=18FF18E1h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-226"]
 ID=18FF18E2h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-227"]
 ID=18FF18E3h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-228"]
 ID=18FF18E4h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-229"]
 ID=18FF18E5h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-230"]
 ID=18FF18E6h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-231"]
 ID=18FF18E7h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-232"]
 ID=18FF18E8h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-233"]
 ID=18FF18E9h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-234"]
 ID=18FF18EAh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-235"]
 ID=18FF18EBh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-236"]
 ID=18FF18ECh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-237"]
 ID=18FF18EDh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-238"]
 ID=18FF18EEh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-239"]
 ID=18FF18EFh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_5B unsigned 16,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_78_Module-224"]
 ID=18FF19E0h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-225"]
 ID=18FF19E1h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-226"]
 ID=18FF19E2h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-227"]
 ID=18FF19E3h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-228"]
 ID=18FF19E4h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-229"]
 ID=18FF19E5h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-230"]
 ID=18FF19E6h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-231"]
 ID=18FF19E7h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-232"]
 ID=18FF19E8h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-233"]
 ID=18FF19E9h
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-234"]
 ID=18FF19EAh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-235"]
 ID=18FF19EBh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-236"]
 ID=18FF19ECh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-237"]
 ID=18FF19EDh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-238"]
 ID=18FF19EEh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-239"]
 ID=18FF19EFh
 Type=J1939PG
-Len=64
+Len=8
 Var=Input_7B unsigned 16,16
 Var=Input_8B unsigned 48,16
 
 ["FRQ_IN_78_Module-224"]
 ID=18FF1BE0h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hertz_Count Input 7A" unsigned 0,12
 Var="Duty Cycle_ SP Input 7A" unsigned 16,12
 Var="Hertz_Count Input 8A" unsigned 32,12
@@ -459,7 +459,7 @@ Var="Duty Cycle_ SP Input 8A" unsigned 48,12
 ["FRQ_IN_78_Module-225"]
 ID=18FF1BE1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hertz_Count Input 7A" unsigned 0,12
 Var="Duty Cycle_ SP Input 7A" unsigned 16,12
 Var="Hertz_Count Input 8A" unsigned 32,12
@@ -594,7 +594,7 @@ Var="Duty Cycle_ SP Input 8A" unsigned 48,12
 ["DIGOUT_CNFG_Module-224"]
 ID=18FFFBE0h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -619,7 +619,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-225"]
 ID=18FFFBE1h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -644,7 +644,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-226"]
 ID=18FFFBE2h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -669,7 +669,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-227"]
 ID=18FFFBE3h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -694,7 +694,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-228"]
 ID=18FFFBE4h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -719,7 +719,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-229"]
 ID=18FFFBE5h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -744,7 +744,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-230"]
 ID=18FFFBE6h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -769,7 +769,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-231"]
 ID=18FFFBE7h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -794,7 +794,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-232"]
 ID=18FFFBE8h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -819,7 +819,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-233"]
 ID=18FFFBE9h
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -844,7 +844,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-234"]
 ID=18FFFBEAh
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -869,7 +869,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-235"]
 ID=18FFFBEBh
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -894,7 +894,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-236"]
 ID=18FFFBECh
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -919,7 +919,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-237"]
 ID=18FFFBEDh
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -944,7 +944,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-238"]
 ID=18FFFBEEh
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -969,7 +969,7 @@ Var=Save_CTR_Config unsigned 56,8
 ["DIGOUT_CNFG_Module-239"]
 ID=18FFFBEFh
 Type=J1939PG
-Len=64
+Len=8
 Var=Baudrate_Jumper unsigned 0,2
 Var=Offset_Jumper_1s unsigned 2,2
 Var=Offset_Jumper_2s unsigned 4,2
@@ -1003,7 +1003,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-225"]
 ID=18FF3BE1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1012,7 +1012,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-226"]
 ID=18FF3BE2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1021,7 +1021,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-227"]
 ID=18FF3BE3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1030,7 +1030,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-228"]
 ID=18FF3BE4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1039,7 +1039,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-229"]
 ID=18FF3BE5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1048,7 +1048,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-230"]
 ID=18FF3BE6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1057,7 +1057,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-231"]
 ID=18FF3BE7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1066,7 +1066,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-232"]
 ID=18FF3BE8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1075,7 +1075,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-233"]
 ID=18FF3BE9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1084,7 +1084,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-234"]
 ID=18FF3BEAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1093,7 +1093,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-235"]
 ID=18FF3BEBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1102,7 +1102,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-236"]
 ID=18FF3BECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1111,7 +1111,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-237"]
 ID=18FF3BEDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1120,7 +1120,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-238"]
 ID=18FF3BEEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1129,7 +1129,7 @@ Var="Input 6B" unsigned 48,16
 ["AMP_1-4_Module-239"]
 ID=18FF3BEFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 5A" unsigned 0,16
 Var="Input 5B" unsigned 16,16
 Var="Input 6A" unsigned 32,16
@@ -1147,7 +1147,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-225"]
 ID=18FF4BE1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1156,7 +1156,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-226"]
 ID=18FF4BE2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1165,7 +1165,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-227"]
 ID=18FF4BE3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1174,7 +1174,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-228"]
 ID=18FF4BE4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1183,7 +1183,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-229"]
 ID=18FF4BE5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1192,7 +1192,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-230"]
 ID=18FF4BE6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1201,7 +1201,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-231"]
 ID=18FF4BE7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1210,7 +1210,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-232"]
 ID=18FF4BE8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1219,7 +1219,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-233"]
 ID=18FF4BE9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1228,7 +1228,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-234"]
 ID=18FF4BEAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1237,7 +1237,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-235"]
 ID=18FF4BEBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1246,7 +1246,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-236"]
 ID=18FF4BECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1255,7 +1255,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-237"]
 ID=18FF4BEDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1264,7 +1264,7 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-238"]
 ID=18FF4BEEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
@@ -1273,14 +1273,14 @@ Var="Input 8B" unsigned 48,16
 ["AMP_5-8_Module-239"]
 ID=18FF4BEFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Input 7A" unsigned 0,16
 Var="Input 7B" unsigned 16,16
 Var="Input 8A" unsigned 32,16
 Var="Input 8B" unsigned 48,16
 
 ["STATUS_Module-224"]
-ID=18EFD1E0h // Module Status
+ID=18EFFEE0h // Module Status
 Type=J1939PG
 Len=8
 Var="Software Version" unsigned 0,8
@@ -1302,9 +1302,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-225"]
-ID=18EFD1E1h
+ID=18EFFEE1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1324,9 +1324,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-226"]
-ID=18EFD1E2h
+ID=18EFFEE2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1346,9 +1346,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-227"]
-ID=18EFD1E3h
+ID=18EFFEE3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1368,9 +1368,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-228"]
-ID=18EFD1E4h
+ID=18EFFEE4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1390,9 +1390,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-229"]
-ID=18EFD1E5h
+ID=18EFFEE5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1412,9 +1412,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-230"]
-ID=18EFD1E6h
+ID=18EFFEE6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1434,9 +1434,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-231"]
-ID=18EFD1E7h
+ID=18EFFEE7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1456,9 +1456,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-232"]
-ID=18EFD1E8h
+ID=18EFFEE8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1478,9 +1478,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-233"]
-ID=18EFD1E9h
+ID=18EFFEE9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1500,9 +1500,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-234"]
-ID=18EFD1EAh
+ID=18EFFEEAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1522,9 +1522,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-235"]
-ID=18EFD1EBh
+ID=18EFFEEBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1544,9 +1544,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-236"]
-ID=18EFD1ECh
+ID=18EFFEECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1566,9 +1566,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-237"]
-ID=18EFD1EDh
+ID=18EFFEEDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1588,9 +1588,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-238"]
-ID=18EFD1EEh
+ID=18EFFEEEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1610,9 +1610,9 @@ Var="Message Command 0x57h received" unsigned 58,2
 Var="Hardware Version" unsigned 60,4
 
 ["STATUS_Module-239"]
-ID=18EFD1EFh
+ID=18EFFEEFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -1634,7 +1634,7 @@ Var="Hardware Version" unsigned 60,4
 ["FAULT_CTR_Module-224"]
 ID=18FFE6E0h // Module Status
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1645,7 +1645,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-225"]
 ID=18FFE6E1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1656,7 +1656,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-226"]
 ID=18FFE6E2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1667,7 +1667,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-227"]
 ID=18FFE6E3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1678,7 +1678,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-228"]
 ID=18FFE6E4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1689,7 +1689,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-229"]
 ID=18FFE6E5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1700,7 +1700,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-230"]
 ID=18FFE6E6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1711,7 +1711,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-231"]
 ID=18FFE6E7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1722,7 +1722,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-232"]
 ID=18FFE6E8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1733,7 +1733,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-233"]
 ID=18FFE6E9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1744,7 +1744,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-234"]
 ID=18FFE6EAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1755,7 +1755,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-235"]
 ID=18FFE6EBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1766,7 +1766,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-236"]
 ID=18FFE6ECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1777,7 +1777,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-237"]
 ID=18FFE6EDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1788,7 +1788,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-238"]
 ID=18FFE6EEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1799,7 +1799,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["FAULT_CTR_Module-239"]
 ID=18FFE6EFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output Overcurrent Fault" unsigned 0,8
 Var="Low Voltage Warning" unsigned 8,8
 Var="Over Voltage Warning" unsigned 16,8
@@ -1810,7 +1810,7 @@ Var="Internal Module Fault" unsigned 48,8
 ["DEVICE_INFO_Module-224"]
 ID=18FFFCE0h // Module Status
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1823,7 +1823,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-225"]
 ID=18FFFCE1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1836,7 +1836,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-226"]
 ID=18FFFCE2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1849,7 +1849,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-227"]
 ID=18FFFCE3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1862,7 +1862,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-228"]
 ID=18FFFCE4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1875,7 +1875,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-229"]
 ID=18FFFCE5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1888,7 +1888,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-230"]
 ID=18FFFCE6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1901,7 +1901,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-231"]
 ID=18FFFCE7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1914,7 +1914,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-232"]
 ID=18FFFCE8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1927,7 +1927,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-233"]
 ID=18FFFCE9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1940,7 +1940,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-234"]
 ID=18FFFCEAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1953,7 +1953,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-235"]
 ID=18FFFCEBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1966,7 +1966,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-236"]
 ID=18FFFCECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1979,7 +1979,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-237"]
 ID=18FFFCEDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -1992,7 +1992,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-238"]
 ID=18FFFCEEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -2005,7 +2005,7 @@ Sig="Temp °F" 32
 ["DEVICE_INFO_Module-239"]
 ID=18FFFCEFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
@@ -2018,7 +2018,7 @@ Sig="Temp °F" 32
 ["AMP_DATA_1-4_Module-224"]
 ID=18FFF3E0h // Module Status
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2027,7 +2027,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-225"]
 ID=18FFF3E1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2036,7 +2036,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-226"]
 ID=18FFF3E2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2045,7 +2045,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-227"]
 ID=18FFF3E3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2054,7 +2054,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-228"]
 ID=18FFF3E4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2063,7 +2063,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-229"]
 ID=18FFF3E5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2072,7 +2072,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-230"]
 ID=18FFF3E6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2081,7 +2081,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-231"]
 ID=18FFF3E7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2090,7 +2090,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-232"]
 ID=18FFF3E8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2099,7 +2099,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-233"]
 ID=18FFF3E9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2108,7 +2108,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-234"]
 ID=18FFF3EAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2117,7 +2117,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-235"]
 ID=18FFF3EBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2126,7 +2126,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-236"]
 ID=18FFF3ECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2135,7 +2135,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-237"]
 ID=18FFF3EDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2144,7 +2144,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-238"]
 ID=18FFF3EEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2153,7 +2153,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_1-4_Module-239"]
 ID=18FFF3EFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_1A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_1B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_2A Amp Feedback" unsigned 40,12 /u:mA
@@ -2162,7 +2162,7 @@ Var="Output_2B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-224"]
 ID=18FFF4E0h // Module Status
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2171,7 +2171,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-225"]
 ID=18FFF4E1h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2180,7 +2180,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-226"]
 ID=18FFF4E2h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2189,7 +2189,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-227"]
 ID=18FFF4E3h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2198,7 +2198,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-228"]
 ID=18FFF4E4h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2207,7 +2207,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-229"]
 ID=18FFF4E5h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2216,7 +2216,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-230"]
 ID=18FFF4E6h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2225,7 +2225,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-231"]
 ID=18FFF4E7h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2234,7 +2234,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-232"]
 ID=18FFF4E8h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2243,7 +2243,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-233"]
 ID=18FFF4E9h
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2252,7 +2252,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-234"]
 ID=18FFF4EAh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2261,7 +2261,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-235"]
 ID=18FFF4EBh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2270,7 +2270,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-236"]
 ID=18FFF4ECh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2279,7 +2279,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-237"]
 ID=18FFF4EDh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2288,7 +2288,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-238"]
 ID=18FFF4EEh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
@@ -2297,7 +2297,7 @@ Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 ["AMP_DATA_5-8_Module-239"]
 ID=18FFF4EFh
 Type=J1939PG
-Len=64
+Len=8
 Var="Output_3A Amp Feedback" unsigned 0,12 /u:mA
 Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
