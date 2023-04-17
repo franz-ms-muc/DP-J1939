@@ -1,4 +1,4 @@
-FormatVersion=6.0 // Do not edit this line!
+ï»¿FormatVersion=6.0 // Do not edit this line!
 Title="xtremeDB -1 J1939 symbol file"
 IDMask=51h
 
@@ -72,7 +72,7 @@ Enum=ManufacturerCodes(0="Reserved",
   65="MAN Nutzfahrzeuge AG", // Munich, Germany
   66="John Deere Construction Equipment Division", // Dubuque, IA   USA
   67="John Deere Coffeyville Works", // (formerly Funk Manufacturing Company) Coffeyville, KS   USA
-  68="Scania", // Södertälje, Sweden
+  68="Scania", // SÃ¶dertÃ¤lje, Sweden
   69="Trimble Navigation",
   70="Flex-coil Limited", // Saskatoon, SK   Canada
   71="Vansco Electronics Ltd.", // Winnipeg, MB   Canada
@@ -104,7 +104,7 @@ Enum=ManufacturerCodes(0="Reserved",
   97="Ag Leader Technology, Inc.", // Ames, IA   USA
   98="Mueller-Elektronik GmbH & Co", // Salzkotten, Germany
   99="International Transmissions Ltd (ITL)", // Wrexham, North Wales  UK
-  100="VDO Technik AG", // Rüthi, Switzerland
+  100="VDO Technik AG", // RÃ¼thi, Switzerland
   101="Sensoria", // San Diego, CA   USA
   102="AGCO", // (formerly AGCO GmbH & Co.) Duluth, GA   USA
   103="CLAAS E-Systems GmbH", // (formerly CLAAS E-Systems KGaA mbH & Co. KG) Dissen, Germany
@@ -123,7 +123,7 @@ Enum=ManufacturerCodes(0="Reserved",
   116="BEELINE Technologies", // Brisbane, QLD  Australia
   117="HUSCO International", // Waukesha, WI   USA
   118="Intron GmbH", // Schwaebisch Hall, Germany
-  119="IntegriNautics  ", // Menlo Park, CA  USA
+  119="IntegriNauticsÂ Â ", // Menlo Park, CA  USA
   120="RDS Technology Ltd", // Minchinhampton, Stroud  UK
   121="HED (Hydro Electronic Devices, Inc.)", // Hartford, WI  USA
   122="FG Wilson (Engineering) Limited", // Larne, County Antrim  UK
@@ -322,7 +322,7 @@ Enum=ManufacturerCodes(0="Reserved",
   315="Icom Incorporated", // Osaka, Japan
   316="ITT Flow Control", // Santa Ana, CA  USA
   317="Navtronics Bvba", // Geel, Belgium
-  318="SAT Plan", // Beauvais Tillé, Oise  France
+  318="SAT Plan", // Beauvais TillÃ©, Oise  France
   319="Cadec Global", // Manchester, NH   USA
   320="Miedema Landbouwwerktuigenfabriek B.V.", // Winsum, The Netherlands
   321="Ultra Electronics, Electrics", // Cheltenham, UK
@@ -343,7 +343,7 @@ Enum=ManufacturerCodes(0="Reserved",
   336="APE s.r.o.", // Bradlec, Czech Republic
   337="Carraro S.p.A.", // Campodarsego, Italy
   338="GRAF-SYTECO", // Tuningen, Germany
-  339="Competence Center ISOBUS e.V.", // Osnabrück, Germany
+  339="Competence Center ISOBUS e.V.", // OsnabrÃ¼ck, Germany
   340="Continental AG", // Hannover, Germany
   341="Boning GmbH & Co", // Ganderkesee, Germany
   342="THOMAS MAGNETE GmbH", // Herdorf, Germany
@@ -508,7 +508,7 @@ Enum=ManufacturerCodes(0="Reserved",
   504="Vesper Marine", // Auckland, New Zealand
   505="Yetter Farm Equipment", // Colchester, IL   USA
   506="IHI STAR Machinery Corporation", // Hokkaido, Japan
-  507="ISOBUS Test Center", // Osnabrück, Germany
+  507="ISOBUS Test Center", // OsnabrÃ¼ck, Germany
   508="Transtech Innovations", // Varennes, QC  Canada
   509="MOTORTECH GmbH", // Celle, Germany
   510="Marinesoft Co. Ltd", // Busan, South Korea
@@ -582,7 +582,7 @@ Enum=ManufacturerCodes(0="Reserved",
   578="advanSea", // Loriant, France
   579="KVH Industries, Inc.", // Middletown, RI  USA
   580="San Jose Technology, Inc.", // New Taipei City, Taiwan
-  581="Väderstad - Verken AB", // Väderstad, Sweden
+  581="VÃ¤derstad - Verken AB", // VÃ¤derstad, Sweden
   582="Innovative Software Engineering", // Coralville, IA  USA
   583="Yachtcontrol", // Hattern, The Netherlands
   584="CarMedialab GmbH", // Bruchsal, Germany
@@ -657,7 +657,7 @@ Enum=ManufacturerCodes(0="Reserved",
   653="AEV, spol. s r. o.", // Kromeriz, Czech Republic
   654="Kohler Power Systems, Detroit Engine Development Center (DEDC)", // Detroit, MI   USA
   655="Genge & Thoma AG", // Lengnau, Switzerland
-  656="PRO SOLUS do Brasil", // Campo Mourão, Brazil
+  656="PRO SOLUS do Brasil", // Campo MourÃ£o, Brazil
   657="Terzo Power Systems", // Sacramento, CA   USA
   658="Shenzhen Jiuzhou Himunication Technology Co., Ltd", // Shenzhen, China
   659="Data Panel Corp.", // Plymouth, MN   USA
@@ -680,7 +680,7 @@ Enum=ManufacturerCodes(0="Reserved",
   676="Danfoss IXA A/S", // Vejle, Denmark
   677="DSA Daten- und Systemtechnik GmbH", // Aachen, Germany
   678="KeepTruckin, Inc.", // Amherst, NY   USA
-  679="OXE Marine AB", // (formerly Cimco Marine AB) Ängelholm, Sweden
+  679="OXE Marine AB", // (formerly Cimco Marine AB) Ã„ngelholm, Sweden
   680="AMVAC Chemical Corporation", // Newport Beach, CA  USA
   681="BEDIA Motorentechnik GmbH & Co. KG", // Altdorf bei Nuernberg, Germany
   682="Eckelmann AG", // Wiesbaden, Germany
@@ -698,9 +698,9 @@ Enum=ManufacturerCodes(0="Reserved",
   694="GasTOPS Ltd.", // Ottawa, ON   Canada
   695="Weldon Technologies", // Columbus, OH   USA
   696="DRS Network & Imaging Systems, LLC (DRS Technologies)", // Huntsville, AL   USA
-  697="Ålö AB", // Umeå, Sweden
+  697="Ã…lÃ¶ AB", // UmeÃ¥, Sweden
   698="Scorpion Technologies Ltd.", // Kamloops, BC  Canada
-  699="Harman International Industries", // Querétaro, Mexico
+  699="Harman International Industries", // QuerÃ©taro, Mexico
   700="K-Tec Earthmovers Inc.", // Rosenort, MB  Canada
   701="BigRoad Inc.", // Kitchener, ON  Canada
   702="Weichai Power Co., Ltd.", // Weifang, China
@@ -793,7 +793,7 @@ Enum=ManufacturerCodes(0="Reserved",
   789="GRADALL", // New Philadelphia, OH  USA
   790="VACALL", // New Philadelphia, OH  USA
   791="AUTEC", // Caldogno, Italy
-  792="Kostal Mexicana", // Querétaro, Mexico
+  792="Kostal Mexicana", // QuerÃ©taro, Mexico
   793="James Fisher Prolec", // Poole, Dorset   UK
   794="Shihlin Electric & Engineering Corporation", // Suzhou, China
   795="Broyda Enterprises Pty Ltd", // Sydney, Australia
@@ -806,7 +806,7 @@ Enum=ManufacturerCodes(0="Reserved",
   802="SPBI (Bj Technologie)", // Dompierre-sur-Yon, France
   803="Gill Sensors & Controls Limited", // Lymington, Hampshire   UK
   804="ASA Electronics", // Elkhart, IN   USA
-  805="Gundersen & Løken AS", // Oslo, Norway
+  805="Gundersen & LÃ¸ken AS", // Oslo, Norway
   806="Charge Automotive Ltd", // Banbury, Oxfordshire   UK
   807="Schneider-Electric", // Burnaby, BC   Canada
   808="RIMEX Supply Ltd.", // Surrey, BC   Canada
@@ -822,23 +822,23 @@ Enum=ManufacturerCodes(0="Reserved",
   818="HGNSS", // Scottsdale, AZ   USA
   819="Preco Electronics", // Boise, ID   USA
   820="DIaLOGIKa Gesellschaft fuer angewandte Informatik mbH", // Saarbruecken, Germany
-  821="Thorsen Teknik A/S", // Farsø, Denmark
+  821="Thorsen Teknik A/S", // FarsÃ¸, Denmark
   822="Bren-Tronics, Inc.", // Commack, NY  USA
   823="ACEINNA, Inc", // (formerly MEMSIC, Inc) Andover, MA  USA
   824="Undheim Systems AS", // Egersund, Norway
-  825="BPW Hungária", // Szombathely, Hungary
+  825="BPW HungÃ¡ria", // Szombathely, Hungary
   826="Lewmar Marine Inc", // Guilford, CT   USA
   827="INmatix Technology Group Ltd", // Hattem, The Netherlands
   828="AgriBrink Inc.", // Moorefield, ON  Canada
   829="Drov Technologies, Inc.", // Oklahoma City, OK  USA
   830="Ultra Motion LLC", // Cutchogue, NY   USA
   831="DOK-ING Ltd.", // Zagreb, Croatia
-  832="Heizomat Gerätebau-Energiesysteme GmbH", // Gunzenhausen, Germany
-  833="Electrum Automation AB", // Umeå, Sweden
+  832="Heizomat GerÃ¤tebau-Energiesysteme GmbH", // Gunzenhausen, Germany
+  833="Electrum Automation AB", // UmeÃ¥, Sweden
   834="Pioneer Microsystems, Inc.", // Pittsburgh, PA   USA
-  835="PetTrack Ltd.", // Héreg, Hungary
+  835="PetTrack Ltd.", // HÃ©reg, Hungary
   836="Signature4", // Coldwater, OH   USA
-  837="Famic Technologies Inc.", // Montréal, QC   Canada
+  837="Famic Technologies Inc.", // MontrÃ©al, QC   Canada
   838="Teamsurv Ltd", // Didcot, Oxfordshire   UK
   839="Indexator Rotator Systems AB", // Vindeln, Sweden
   840="E.S.T.E. Srl", // Ferrara, Italy
@@ -846,10 +846,10 @@ Enum=ManufacturerCodes(0="Reserved",
   842="DigiDevice Srl", // Calvisano, Italy
   843="Hendrickson Truck Commercial Vehicle Systems", // Woodridge, IL   USA
   844="FELL AS", // Lier, Norway
-  845="GMB Güstrower Maschinenbau GmbH", // Güstrow, Germany
+  845="GMB GÃ¼strower Maschinenbau GmbH", // GÃ¼strow, Germany
   846="L3 Magnet-Motor", // Starnberg, Germany
   847="Oceanvolt", // Vantaa, Finland
-  848="ningupex", // Dresden, Germany
+  848="ningupex", // Dresden,Â Germany
   849="MTS Maschinentechnik Schrode AG", // Hayingen, Germany
   850="Geoprospectors GmbH", // Traiskirchen, Austria
   851="Novotechnik Messwertaufnehmer OHG", // Ostfildern (Ruit), Germany
@@ -864,7 +864,7 @@ Enum=ManufacturerCodes(0="Reserved",
   860="Michelin", // Clermont-Ferrand, France
   861="Adel System S.r.l.", // Reggio Emilia, Italy
   862="Prospec Electronics", // Mount Pleasant, SC   USA
-  863="SMAG", // Châlons-en-Champagne, France
+  863="SMAG", // ChÃ¢lons-en-Champagne, France
   864="Streamline Transportation Technologies Inc.", // Kamloops, BC   Canada
   865="MyEasyFarm", // Prunay, France
   866="Netradyne, Inc.", // San Diego, CA   USA
@@ -873,14 +873,14 @@ Enum=ManufacturerCodes(0="Reserved",
   869="Intercomp", // Medina, MN   USA
   870="Textron Fleet Management", // Surrey, BC   Canada
   871="Superior Tech Inc", // Ephrata, PA   USA
-  872="Kählig Antriebstechnik GmbH", // Hannover, Germany
+  872="KÃ¤hlig Antriebstechnik GmbH", // Hannover, Germany
   873="Garnet Instruments Ltd.", // Sherwood Park, AB   Canada
   874="MTA S.p.A.", // Codogno, Italy
   875="Salvarani S.r.l.", // Poviglio (RE), Italy
   876="SUCO Robert Scheuffele GmbH & Co. KG", // Bietigheim-Bissingen, Germany
   877="SICK ATech GmbH", // Witten, Germany
   878="FOTON", // Beijing, China
-  879="PG Trionic, Inc.", // Essex, MA   USA
+  879="PGÂ Trionic,Â Inc.", // Essex,Â MA   USA
   880="Revision Military", // Ottawa, ON  Canada
   881="Sovema", // Gaggio di Piano, Italy
   882="BHTronik GmbH & Co. KG", // Oberviechtach, Germany
@@ -911,7 +911,7 @@ Enum=ManufacturerCodes(0="Reserved",
   907="strautmann", // Bad Laer, Germany
   908="Chonbuk National University Department of Electronics", // Jeonju, Republic of Korea
   909="Marines Co., Ltd.", // Ulsan, Republic of Korea
-  910="Hermann Paus Maschinenfabrik GmbH", // Emsbüren, Germany
+  910="Hermann Paus Maschinenfabrik GmbH", // EmsbÃ¼ren, Germany
   911="Nautic-On", // Chicago, IL   USA
   912="Steyr Motors GmbH", // Steyr, Austria
   913="Toyota Motor Corporation", // Toyota City, Japan
@@ -925,7 +925,7 @@ Enum=ManufacturerCodes(0="Reserved",
   921="ROPA Fahrzeug- und Maschinenbau GmbH", // Herrngiersdorf, Germany
   922="Terberg Benschop B.V.", // Benschop, The Netherlands
   923="ELTEK S.p.A.", // Casale Monferrato, Italy
-  924="PAS Peschak Autonome Systeme GmbH", // Großweikersdorf, Austria
+  924="PAS Peschak Autonome Systeme GmbH", // GroÃŸweikersdorf, Austria
   925="GW Lisk Company", // Clifton Springs, NY   USA
   926="Buhler Industries Inc.", // Winnipeg, MB   Canada
   927="Saicon", // Passo Fundo, Brazil
@@ -939,18 +939,18 @@ Enum=ManufacturerCodes(0="Reserved",
   935="Meels GmbH & Co. KG", // Fellheim, Germany
   936="Hi-tech Millennium", // Corunna, MI   USA
   937="Precision Circuits Inc", // Downers Grove, IL   USA
-  938="LEVEL Systems", // Náchod, Czech Republic
+  938="LEVEL Systems", // NÃ¡chod, Czech Republic
   939="Warn Industries, Inc.", // Clackamas, OR   USA
   940="Dometal Oy", // Loimaa, Finland
   941="Navya", // Villeurbanne, France
   942="Vogelsang GmbH & Co. KG", // Essen, Germany
-  943="FISCHER AG Präzisionspindeln", // Herzogenbuchsee, Switzerland
+  943="FISCHER AG PrÃ¤zisionspindeln", // Herzogenbuchsee, Switzerland
   944="ZONTISA Marine SL", // Barcelona, Spain
   945="Equalizer AG", // Cape Town, South Africa
-  946="Hydac Tecnologia Ltda", // São Bernardo do Campo, Brazil
-  947="Gerd Bär GmbH", // Heilbronn, Germany
+  946="Hydac Tecnologia Ltda", // SÃ£o Bernardo do Campo, Brazil
+  947="Gerd BÃ¤r GmbH", // Heilbronn, Germany
   948="Donix", // Cape Town, South Africa
-  949="Škoda Electric a.s.", // Plzen, Czech Republic
+  949="Å koda Electric a.s.", // Plzen, Czech Republic
   950="RE:Lab s.r.l.", // Reggio Emilia, Italy
   951="Exor International S.p.A.", // San Giovanni Lupatoto, Italy
   952="Tan Delta Systems Ltd", // Sheffield, South Yorkshire   UK
@@ -990,7 +990,7 @@ Enum=ManufacturerCodes(0="Reserved",
   986="AAMP Global", // Bordon, Hampshire   UK
   987="Baltic Car Equipment", // Kaunas, Lithuania
   988="Voith Turbo", // Heidenheim, Germany
-  989="Flux-Geräte GmbH", // Maulbronn, Germany
+  989="Flux-GerÃ¤te GmbH", // Maulbronn, Germany
   990="SAMSUNG SDI Co., Ltd.", // Cheonan, Republic of Korea
   991="Deutronic Elektronik GmbH", // Adlkofen, Germany
   992="MarineIOT LLC", // Seattle, WA   USA
@@ -1014,10 +1014,10 @@ Enum=ManufacturerCodes(0="Reserved",
   1010="Agricultural Industry Electronics Foundation e.V.", // Frankfurt, Germany
   1011="Soundmax Electronics Ltd", // Hong Kong, China
   1012="Rhodan Marine Systems of Florida LLC", // Sarasota, FL   USA
-  1013="Allochis E-Tec", // Ferré, Argentina
+  1013="Allochis E-Tec", // FerrÃ©, Argentina
   1014="Briri Maschinenbau GmbH", // Bawinkel, Germany
   1015="SECURITAG SAS", // Nantes, France
-  1016="Röhren- und Pumpenwerk BAUER GmbH", // Voitsberg, Austria
+  1016="RÃ¶hren- und Pumpenwerk BAUER GmbH", // Voitsberg, Austria
   1017="Caldaro AB", // Stockholm, Sweden
   1018="Flex TTS", // San Jose, CA   USA
   1019="Codek Foundries", // Cedar Rapids, IA   USA
@@ -1037,13 +1037,13 @@ Enum=ManufacturerCodes(0="Reserved",
   1033="ECCO Safety Group", // Boise, ID   USA
   1034="Siren Marine", // Newport, RI   USA
   1035="Agres", // Pinhais, Brazil
-  1036="Bender GmbH & Co. KG", // Grünberg, Germany
+  1036="Bender GmbH & Co. KG", // GrÃ¼nberg, Germany
   1037="Dragonfly Energy Corp.", // Sparks, NV   USA
   1038="EMIT Technologies, Inc.", // Sheridan, WY   USA
   1039="Liugong Dressta Machinery", // Stalowa Wola, Poland
   1040="BPE Electronics Srl", // Campagnola Emilia (RE), Italy
   1041="EZ Lynk", // Georgetown, Cayman Islands
-  1042="engcon group", // Strömsund, Sweden
+  1042="engcon group", // StrÃ¶msund, Sweden
   1043="Hyva", // Alphen Aan Den Rijn, The Netherlands
   1044="Xee", // Lille, France
   1045="CMR Group", // Marseille, France
@@ -1053,7 +1053,7 @@ Enum=ManufacturerCodes(0="Reserved",
   1049="S&S Cycle", // Viola, WI   USA
   1050="Spacenus GmbH", // Darmstadt, Germany
   1051="ProNav AS", // Egersund, Norway
-  1052="Pfreundt", // Südlohn, Germany
+  1052="Pfreundt", // SÃ¼dlohn, Germany
   1053="Vetus Maxwell, Inc.", // Hanover, MD   USA
   1054="Schmotzer Hacktechnik GmbH & Co. KG", // Bad Windsheim, Germany
   1055="EXA Computing GmbH", // Hamm, Germany
@@ -1082,8 +1082,8 @@ Enum=ManufacturerCodes(0="Reserved",
   1078="GE Appliances", // Louisville, KY   USA
   1079="Carl Zeiss Spectroscopy GmbH", // Jena, Germany
   1080="Epsilor-Electric Fuel Ltd.", // Beit Shemesh, Israel
-  1081="Imcon Electronics, s.r.o.", // Šlapanice, Czech Republic
-  1082="TÜMOSAN Engine and Tractor Co.", // Istanbul, Turkey
+  1081="Imcon Electronics, s.r.o.", // Å lapanice, Czech Republic
+  1082="TÃœMOSAN Engine and Tractor Co.", // Istanbul, Turkey
   1083="Nauticoncept", // Macon, France
   1084="Shadow-Caster LED lighting LLC", // Clearwater, FL   USA
   1085="Wet Sounds, LLC", // Houston, TX   USA
@@ -1096,7 +1096,7 @@ Enum=ManufacturerCodes(0="Reserved",
   1092="Scheiber", // Saint-Pierre du Chemin, France
   1093="innolectric", // Bochum, Germany
   1094="Tokushu Denki", // Iwata, Japan
-  1095="WEG Drives and Controls - Automação Ltda", // Jaraguá do Sul, Brazil
+  1095="WEG Drives and Controls - AutomaÃ§Ã£o Ltda", // JaraguÃ¡ do Sul, Brazil
   1096="Texense Sensors", // Varennes-Vauzelles, France
   1097="M2M Craft Co., Ltd", // Sapporo, Japan
   1098="Preh GmbH", // Bad Neustadt a. d. Saale, Germany
@@ -1108,7 +1108,7 @@ Enum=ManufacturerCodes(0="Reserved",
   1104="The Toro Company", // Bloomington, MN   USA
   1105="Redekop Manufacturing", // Saskatoon, SK   Canada
   1106="Great Dane LLC", // Chicago, IL   USA
-  1107="Dräger Safety", // Lübeck, Germany
+  1107="DrÃ¤ger Safety", // LÃ¼beck, Germany
   1108="ORBCOMM", // Rochelle Park, NJ   USA
   1109="Dockmate", // Boortmeerbeek, Belgium
   1110="Analytic Systems Ware (1993) Ltd.", // Delta, BC   Canada
@@ -1125,14 +1125,14 @@ Enum=ManufacturerCodes(0="Reserved",
   1121="Platform Science", // La Jolla, CA   USA
   1122="GT Inc.", // Oak Ridge North, TX   USA
   1123="QP Hydraulics", // Carol Stream, IL   USA
-  1124="Fortron Agriculture", // Campo Mourão, Brazil
+  1124="Fortron Agriculture", // Campo MourÃ£o, Brazil
   1125="Griffith-Elder & Co. Ltd.", // Bury St. Edmunds, Suffolk  UK
   1126="Auralix", // Maribor, Slovenia
   1127="ElectroMaax", // Beamsville, ON   Canada
   1128="Citoon Electronic Technology (Tianjin) Co., Ltd.", // Tianjin, China
   1129="Spectrolytic GmbH", // Wernberg-Koeblitz, Germany
   1130="Vitesco Technologies", // Regensburg, Germany
-  1131="Guliwer electronics s.r.o.", // Lanškroun, Czech republic
+  1131="Guliwer electronics s.r.o.", // LanÅ¡kroun, Czech republic
   1132="Tokachi Zaidan", // Obihiro-shi, Japan
   1133="MEGATRON Elektronik GmbH & Co. KG", // Putzbrunn, Germany
   1134="Master Schools at Ostbahnhof", // Munich, Germany
@@ -1144,7 +1144,7 @@ Enum=ManufacturerCodes(0="Reserved",
   1140="Across Oceans Systems Ltd.", // North Vancouver, BC   Canada
   1141="MRS Electronic GmbH & Co. KG", // Rottweil, Germany
   1142="Truma", // Putzbrunn, Germany
-  1143="Elektro-Szoft 2000", // Bátmonostor, Hungary
+  1143="Elektro-Szoft 2000", // BÃ¡tmonostor, Hungary
   1144="Troo Corporation", // Ottawa, ON   Canada
   1145="Kiwi Yachting", // Auckland, New Zealand
   1146="Rometron", // Steenderen, The Netherlands
@@ -1166,7 +1166,7 @@ Enum=ManufacturerCodes(0="Reserved",
   1162="PEL-tuote Oy", // Rantasalmi, Finland
   1163="DFX Technologies LLC", // Roswell, GA   USA
   1164="SEG Automotive", // Stuttgart, Germany
-  1165="InnoTotal AB", // Kungälv, Sweden
+  1165="InnoTotal AB", // KungÃ¤lv, Sweden
   1166="Wachendorff Automation GmbH & Co. KG", // Geisenheim, Germany
   1167="Tevva Motors", // Chelmsford, Essex  UK
   1168="Masats S.A.", // Sant Salvador de Guardiola, Barcelona  Spain
@@ -1207,10 +1207,10 @@ Enum=ManufacturerCodes(0="Reserved",
   1861="Vector North America", // (formerly Vector Cantech) Novi, MI  USA
   1862="Sanshin", // Shizuoka, Japan
   1863="Thomas G. Faria Co.") // Uncasville, CT  USA
-  Enum=IndustryGroups(0="Global, applies to all", 1="On-Highway Equipment", 2="Agricultural and Forestry Equipment",
+Enum=IndustryGroups(0="Global, applies to all", 1="On-Highway Equipment", 2="Agricultural and Forestry Equipment",
   3="Construction Equipment", 4="Marine", 5="Industrial-Process Control-Stationary (Gen-Sets)",
   6="Reserved for future assignment by SAE", 7="Reserved for future assignment by SAE")
-  Enum=ArbitraryAddressCapable(0="CA is not capable", // This CA is not capable of selecting alternate source addresses itself.
+Enum=ArbitraryAddressCapable(0="CA is not capable", // This CA is not capable of selecting alternate source addresses itself.
   1="CA is capable") // This CA is capable of selecting alternate source addresses itself if needed during address arbitration.
 Enum=Output_Mode(0="Disable", 1="Digital PNP", 2="Data", 3="Percent", 4="Amps")
 Enum=Input_Mode(0="Disable", 1="Digital PNP", 2="Digital NPN", 3="Analog 4-20mA", 4="Analog 0-5V", 5="ANALOG 0-10V",
@@ -1233,7 +1233,14 @@ Sig=Output_6B Pin 2
 Sig=Output_7A Pin 2
 Sig=Output_7B Pin 2
 Sig=Output_8A Pin 2
-Sig=Output_8B Pin 2
+Sig=Input_Power_Port_1 Pin 2
+Sig=Input_Power_Port_2 Pin 2
+Sig=Input_Power_Port_3 Pin 2
+Sig=Input_Power_Port_4 Pin 2
+Sig=Input_Power_Port_5 Pin 2
+Sig=Input_Power_Port_6 Pin 2
+Sig=Input_Power_Port_7 Pin 2
+Sig=Input_Power_Port_8 Pin 2
 Sig=COMMAND unsigned 8 -h /max:1
 Sig=Version unsigned 8
 Sig=Revision unsigned 8
@@ -1254,20 +1261,17 @@ Sig=Status_14 Pin 2 /ln:"True when Message Command = 0x57h received"
 Sig=Fault_Code unsigned 8 /max:1
 Sig=User_ID unsigned 8 /max:1
 Sig=Hardware_Version unsigned 4 /max:1
-Sig="Temp °C" unsigned 12 /u:°C /f:0.0164 /o:1 /p:1
-Sig="Temp °F" unsigned 12 /u:°F /f:0.1 /o:-100
+Sig="Temp Â°C" unsigned 12 /u:Â°C /f:0.0164 /o:1 /p:1
+Sig="Temp Â°F" unsigned 12 /u:Â°F /f:0.1 /o:-100
 Sig=Voltage unsigned 10 /u:V /f:0.1
 
 {SENDRECEIVE}
-
-
 
 [RQST]
 ID=18EAFEFEh // Request
 Type=J1939PG
 Len=3
 Var=ParameterGroupNumber unsigned 0,24 /ln:"Parameter Group Number (RQST)" /spn:2540
-
 
 [ACM]
 ID=18EEFEFEh // Address Claimed
@@ -1283,7 +1287,6 @@ Var=VehicleSystem unsigned 49,7 /max:126 /ln:"Vehicle System" /spn:2842
 Var=VehicleSystemInstance unsigned 56,4 /ln:"Vehicle System Instance" /spn:2843
 Var=IndustryGroup unsigned 60,3 /e:IndustryGroups /ln:"Industry Group" /spn:2846
 Var=ArbitraryAddressCapable unsigned 63,1 /e:ArbitraryAddressCapable /ln:"Arbitrary Address Capable" /spn:2844
-
 
 ["DIGITAL_IN_Module-224"]
 ID=18FF15E0h
@@ -2553,6 +2556,8 @@ Var="Input 8B" unsigned 48,16
 ID=18EFFEE0h // Module Status
 Type=J1939PG
 Len=8
+CycleTime=200
+Timeout=600
 Var="Software Version" unsigned 0,8
 Var="Software Revision" unsigned 8,8
 Var="Factory Default Configuration" unsigned 16,2
@@ -3084,11 +3089,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-225"]
 ID=18FFFCE1h
@@ -3097,11 +3102,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-226"]
 ID=18FFFCE2h
@@ -3110,11 +3115,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-227"]
 ID=18FFFCE3h
@@ -3123,11 +3128,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-228"]
 ID=18FFFCE4h
@@ -3136,11 +3141,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-229"]
 ID=18FFFCE5h
@@ -3149,11 +3154,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-230"]
 ID=18FFFCE6h
@@ -3162,11 +3167,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-231"]
 ID=18FFFCE7h
@@ -3175,11 +3180,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-232"]
 ID=18FFFCE8h
@@ -3188,11 +3193,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-233"]
 ID=18FFFCE9h
@@ -3201,11 +3206,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-234"]
 ID=18FFFCEAh
@@ -3214,11 +3219,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-235"]
 ID=18FFFCEBh
@@ -3227,11 +3232,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-236"]
 ID=18FFFCECh
@@ -3240,11 +3245,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-237"]
 ID=18FFFCEDh
@@ -3253,11 +3258,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-238"]
 ID=18FFFCEEh
@@ -3266,11 +3271,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["DEVICE_INFO_Module-239"]
 ID=18FFFCEFh
@@ -3279,11 +3284,11 @@ Len=8
 Var="Hardware Configuration" unsigned 0,8
 Var="PCB Assembly Revision" unsigned 8,8
 Var="Battery Voltage 100mV/bit" unsigned 16,10
-Var=Temp unsigned 32,12 /ln:"Module Temp -100+300°F"
+Var=Temp unsigned 32,12 /ln:"Module Temp -100+300Â°F"
 Var="Additional Configuration" unsigned 56,8
 Sig=Voltage 16
-Sig="Temp °C" 32
-Sig="Temp °F" 32
+Sig="Temp Â°C" 32
+Sig="Temp Â°F" 32
 
 ["AMP_DATA_1-4_Module-224"]
 ID=18FFF3E0h // Module Status
@@ -3573,11 +3578,12 @@ Var="Output_3B Amp Feedback" unsigned 16,12 /u:mA
 Var="Output_4A Amp Feedback" unsigned 40,12 /u:mA
 Var="Output_4B Amp Feedback" unsigned 48,12 /u:mA
 
-
-[CTRL1_00]
+["CTRL1_00_Module-224"]
 ID=18EFE0FEh
 Type=J1939PG
 J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
 Mux=Multiplexer51h 0,8 51h
 Sig=COMMAND 0
 Sig=Output_1A 8
@@ -3597,10 +3603,12 @@ Sig=Output_7B 34
 Sig=Output_8A 36
 Sig=Output_8B 38
 
-[CTRL1_01]
+["CTRL1_01_Module-225"]
 ID=18EFE1FEh
 Type=J1939PG
 J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
 Mux=Multiplexer51h 0,8 51h
 Sig=COMMAND 0
 Sig=Output_1A 8
