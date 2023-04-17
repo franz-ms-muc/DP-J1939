@@ -1233,6 +1233,7 @@ Sig=Output_6B Pin 2
 Sig=Output_7A Pin 2
 Sig=Output_7B Pin 2
 Sig=Output_8A Pin 2
+Sig=Output_8B Pin 2
 Sig=Input_Power_Port_1 Pin 2
 Sig=Input_Power_Port_2 Pin 2
 Sig=Input_Power_Port_3 Pin 2
@@ -3602,6 +3603,14 @@ Sig=Output_7A 32
 Sig=Output_7B 34
 Sig=Output_8A 36
 Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46 
+Sig=Input_Power_Port_8 48 
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
 
 ["CTRL1_01_Module-225"]
 ID=18EFE1FEh
