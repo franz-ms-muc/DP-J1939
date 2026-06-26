@@ -3612,6 +3612,92 @@ Sig=Input_Power_Port_7 50
 Sig=Input_Power_Port_6 52
 Sig=Input_Power_Port_5 54
 
+["CTRL1_00_Module-224"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_00_Module-224"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_00_Module-224"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_00_Module-224"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_00_Module-224"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_00_Module-224"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_00_Module-224"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
 ["CTRL1_01_Module-225"]
 ID=18EFE1FEh
 Type=J1939PG
@@ -3645,6 +3731,92 @@ Sig=Input_Power_Port_7 50
 Sig=Input_Power_Port_6 52
 Sig=Input_Power_Port_5 54
 
+["CTRL1_01_Module-225"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_01_Module-225"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_01_Module-225"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_01_Module-225"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_01_Module-225"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_01_Module-225"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_01_Module-225"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
 ["CTRL1_02_Module-226"]
 ID=18EFE2FEh
 Type=J1939PG
@@ -3677,3 +3849,1636 @@ Sig=Input_Power_Port_8 48
 Sig=Input_Power_Port_7 50
 Sig=Input_Power_Port_6 52
 Sig=Input_Power_Port_5 54
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_02_Module-226"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_03_Module-227"]
+ID=18EFE3FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_03_Module-227"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_04_Module-228"]
+ID=18EFE4FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_04_Module-228"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_05_Module-229"]
+ID=18EFE5FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_05_Module-229"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_06_Module-230"]
+ID=18EFE6FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_06_Module-230"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_07_Module-231"]
+ID=18EFE7FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_07_Module-231"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_08_Module-232"]
+ID=18EFE8FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_08_Module-232"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_09_Module-233"]
+ID=18EFE9FEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_09_Module-233"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_10_Module-234"]
+ID=18EFEAFEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_10_Module-234"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_11_Module-235"]
+ID=18EFEBFEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_11_Module-235"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_12_Module-236"]
+ID=18EFECFEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_12_Module-236"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_13_Module-237"]
+ID=18EFEDFEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_13_Module-237"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_14_Module-238"]
+ID=18EFEEFEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_14_Module-238"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["CTRL1_15_Module-239"]
+ID=18EFEFFEh
+Type=J1939PG
+J1939Mask=Priority,PGN,DA
+CycleTime=100
+Timeout=200
+Mux=Multiplexer51h 0,8 51h
+Sig=COMMAND 0
+Sig=Output_1A 8
+Sig=Output_1B 10
+Sig=Output_2A 12
+Sig=Output_2B 14
+Sig=Output_3A 16
+Sig=Output_3B 18
+Sig=Output_4A 20
+Sig=Output_4B 22
+Sig=Output_5A 24
+Sig=Output_5B 26
+Sig=Output_6A 28
+Sig=Output_6B 30
+Sig=Output_7A 32
+Sig=Output_7B 34
+Sig=Output_8A 36
+Sig=Output_8B 38
+Sig=Input_Power_Port_4 40
+Sig=Input_Power_Port_3 42
+Sig=Input_Power_Port_2 44
+Sig=Input_Power_Port_1 46
+Sig=Input_Power_Port_8 48
+Sig=Input_Power_Port_7 50
+Sig=Input_Power_Port_6 52
+Sig=Input_Power_Port_5 54
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer52h 0,8 52h
+Sig=COMMAND 0
+Var=Control_Mode_Reset unsigned 8,2 /e:Pin
+Var=Enable_Status_1_Message unsigned 10,2 /e:Pin
+Var=Enable_Status_2_Message unsigned 12,2 /e:Pin
+Var=Enable_Amp_Message unsigned 14,2 /e:Pin
+Var=Enable_24V_DC unsigned 16,2 /e:Pin
+Var=Save_Configuration unsigned 18,2 /e:Pin
+Var=Analog_Raw_Value unsigned 20,2 /e:Pin
+Var=FREQ1 unsigned 32,16 -h /u:Hz
+Var=MODE1 unsigned 48,4 /e:Output_Mode
+Var=MODE2 unsigned 52,4 /e:Input_Mode
+Var=ID1 unsigned 56,8 -h
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer53h 0,8 53h
+Sig=COMMAND 0
+Var=OUTMODE1A unsigned 8,4 /e:Output_Mode
+Var=OUTMODE1B unsigned 12,4 /e:Output_Mode
+Var=OUTMODE2A unsigned 16,4 /e:Output_Mode
+Var=OUTMODE2B unsigned 20,4 /e:Output_Mode
+Var=OUTMODE3A unsigned 24,4 /e:Output_Mode
+Var=OUTMODE3B unsigned 28,4 /e:Output_Mode
+Var=OUTMODE4A unsigned 32,4 /e:Output_Mode
+Var=OUTMODE4B unsigned 36,4 /e:Output_Mode
+Var=INMODE5A unsigned 40,4 /e:Input_Mode
+Var=INMODE5B unsigned 44,4 /e:Input_Mode
+Var=INMODE6A unsigned 48,4 /e:Input_Mode
+Var=INMODE6B unsigned 52,4 /e:Input_Mode
+Var=INMODE7A unsigned 56,4 /e:Input_Mode
+Var=INMODE7B unsigned 60,4 /e:Input_Mode
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer54h 0,8 54h
+Sig=COMMAND 0
+Var=INMODE8A unsigned 8,4 /e:Input_Mode
+Var=INMODE8B unsigned 12,4 /e:Input_Mode
+Var=Port_1A_Kp unsigned 16,8 -h
+Var=Port_1A_Ki unsigned 24,8 -h
+Var=Port_1B_Kp unsigned 32,8 -h
+Var=Port_1B_Ki unsigned 40,8 -h
+Var=Port_2A_Kp unsigned 48,8 -h
+Var=Port_2A_Ki unsigned 56,8 -h
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer55h 0,8 55h
+Sig=COMMAND 0
+Var=Port_2B_Kp unsigned 8,8 -h
+Var=Port_2B_Ki unsigned 16,8 -h
+Var=Port_3A_Kp unsigned 24,8 -h
+Var=Port_3A_Ki unsigned 32,8 -h
+Var=Port_3B_Kp unsigned 40,8 -h
+Var=Port_3B_Ki unsigned 48,8 -h
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer56h 0,8 56h
+Sig=COMMAND 0
+Var=Port_4A_Kp unsigned 8,8 -h
+Var=Port_4A_Ki unsigned 16,8 -h
+Var=Port_4B_Kp unsigned 24,8 -h
+Var=Port_4B_Ki unsigned 32,8 -h
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer57h 0,8 57h
+Sig=COMMAND 0
+Var=Counter_7A_On_Off unsigned 8,2 /e:Pin
+Var=Counter_7A_Reset unsigned 10,2 /e:Pin
+Var=Counter_7A_Enable_Overflow unsigned 12,2 /e:Pin
+Var=Counter_7A_Enable_Output_3A unsigned 14,2 /e:Pin
+Var=Counter_8A_On_Off unsigned 16,2 /e:Pin
+Var=Counter_8A_Reset unsigned 18,2 /e:Pin
+Var=Counter_8A_Enable_Overflow unsigned 20,2 /e:Pin
+Var=Counter_8A_Enable_Output_4A unsigned 22,2 /e:Pin
+Var=Counter_7A_Setpoint unsigned 32,16 -h
+Var=Counter_8A_Setpoint unsigned 48,16 -h
+
+["CTRL1_15_Module-239"]
+Mux=Multiplexer5Bh 0,8 5Bh
+Sig=COMMAND 0
+Var=DIGIN_Rate unsigned 8,8 -h /u:ms /f:10
+Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
+Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
+Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
+Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
