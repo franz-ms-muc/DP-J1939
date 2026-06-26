@@ -1501,224 +1501,288 @@ Var=Input_8B unsigned 30,2
 ID=18FF18E0h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-225"]
 ID=18FF18E1h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-226"]
 ID=18FF18E2h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-227"]
 ID=18FF18E3h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-228"]
 ID=18FF18E4h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-229"]
 ID=18FF18E5h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-230"]
 ID=18FF18E6h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-231"]
 ID=18FF18E7h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-232"]
 ID=18FF18E8h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-233"]
 ID=18FF18E9h
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-234"]
 ID=18FF18EAh
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-235"]
 ID=18FF18EBh
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-236"]
 ID=18FF18ECh
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-237"]
 ID=18FF18EDh
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-238"]
 ID=18FF18EEh
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_56_Module-239"]
 ID=18FF18EFh
 Type=J1939PG
 Len=8
+Var=Input_5A unsigned 0,16
 Var=Input_5B unsigned 16,16
+Var=Input_6A unsigned 32,16
 Var=Input_6B unsigned 48,16
 
 ["ANALOG_IN_78_Module-224"]
 ID=18FF19E0h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-225"]
 ID=18FF19E1h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-226"]
 ID=18FF19E2h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-227"]
 ID=18FF19E3h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-228"]
 ID=18FF19E4h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-229"]
 ID=18FF19E5h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-230"]
 ID=18FF19E6h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-231"]
 ID=18FF19E7h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-232"]
 ID=18FF19E8h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-233"]
 ID=18FF19E9h
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-234"]
 ID=18FF19EAh
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-235"]
 ID=18FF19EBh
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-236"]
 ID=18FF19ECh
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-237"]
 ID=18FF19EDh
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-238"]
 ID=18FF19EEh
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["ANALOG_IN_78_Module-239"]
 ID=18FF19EFh
 Type=J1939PG
 Len=8
+Var=Input_7A unsigned 0,16
 Var=Input_7B unsigned 16,16
+Var=Input_8A unsigned 32,16
 Var=Input_8B unsigned 48,16
 
 ["FRQ_IN_78_Module-224"]
