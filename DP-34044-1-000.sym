@@ -5482,3 +5482,579 @@ Var=AD2_Rate unsigned 16,8 -h /u:ms /f:10
 Var=AD3_Rate unsigned 24,8 -h /u:ms /f:10
 Var=AD4_Rate unsigned 32,8 -h /u:ms /f:10
 Var=AD5_Rate unsigned 40,8 -h /u:ms /f:10
+
+["PWM1_00_Module-224"]
+ID=18FF1CFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_00_Module-224"]
+ID=18FF1DFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_00_Module-224"]
+ID=18FF1EFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_00_Module-224"]
+ID=18FF1FFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_01_Module-225"]
+ID=18FF20FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_01_Module-225"]
+ID=18FF21FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_01_Module-225"]
+ID=18FF22FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_01_Module-225"]
+ID=18FF23FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_02_Module-226"]
+ID=18FF24FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_02_Module-226"]
+ID=18FF25FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_02_Module-226"]
+ID=18FF26FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_02_Module-226"]
+ID=18FF27FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_03_Module-227"]
+ID=18FF28FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_03_Module-227"]
+ID=18FF29FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_03_Module-227"]
+ID=18FF2AFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_03_Module-227"]
+ID=18FF2BFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_04_Module-228"]
+ID=18FF2CFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_04_Module-228"]
+ID=18FF2DFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_04_Module-228"]
+ID=18FF2EFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_04_Module-228"]
+ID=18FF2FFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_05_Module-229"]
+ID=18FF30FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_05_Module-229"]
+ID=18FF31FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_05_Module-229"]
+ID=18FF32FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_05_Module-229"]
+ID=18FF33FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_06_Module-230"]
+ID=18FF34FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_06_Module-230"]
+ID=18FF35FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_06_Module-230"]
+ID=18FF36FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_06_Module-230"]
+ID=18FF37FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_07_Module-231"]
+ID=18FF38FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_07_Module-231"]
+ID=18FF39FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_07_Module-231"]
+ID=18FF3AFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_07_Module-231"]
+ID=18FF3BFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_08_Module-232"]
+ID=18FF3CFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_08_Module-232"]
+ID=18FF3DFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_08_Module-232"]
+ID=18FF3EFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_08_Module-232"]
+ID=18FF3FFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_09_Module-233"]
+ID=18FF40FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_09_Module-233"]
+ID=18FF41FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_09_Module-233"]
+ID=18FF42FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_09_Module-233"]
+ID=18FF43FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_10_Module-234"]
+ID=18FF44FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_10_Module-234"]
+ID=18FF45FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_10_Module-234"]
+ID=18FF46FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_10_Module-234"]
+ID=18FF47FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_11_Module-235"]
+ID=18FF48FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_11_Module-235"]
+ID=18FF49FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_11_Module-235"]
+ID=18FF4AFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_11_Module-235"]
+ID=18FF4BFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_12_Module-236"]
+ID=18FF4CFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_12_Module-236"]
+ID=18FF4DFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_12_Module-236"]
+ID=18FF4EFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_12_Module-236"]
+ID=18FF4FFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_13_Module-237"]
+ID=18FF50FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_13_Module-237"]
+ID=18FF51FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_13_Module-237"]
+ID=18FF52FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_13_Module-237"]
+ID=18FF53FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_14_Module-238"]
+ID=18FF54FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_14_Module-238"]
+ID=18FF55FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_14_Module-238"]
+ID=18FF56FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_14_Module-238"]
+ID=18FF57FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
+
+["PWM1_15_Module-239"]
+ID=18FF58FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 1A" unsigned 0,16 -h
+Var="Control Output 1B" unsigned 16,16 -h
+Var="Control Output 2A" unsigned 32,16 -h
+Var="Control Output 2B" unsigned 48,16 -h
+
+["PWM2_15_Module-239"]
+ID=18FF59FEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 3A" unsigned 0,16 -h
+Var="Control Output 3B" unsigned 16,16 -h
+Var="Control Output 4A" unsigned 32,16 -h
+Var="Control Output 4B" unsigned 48,16 -h
+
+["PWM3_15_Module-239"]
+ID=18FF5AFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 5A" unsigned 0,16 -h
+Var="Control Output 5B" unsigned 16,16 -h
+Var="Control Output 6A" unsigned 32,16 -h
+Var="Control Output 6B" unsigned 48,16 -h
+
+["PWM4_15_Module-239"]
+ID=18FF5BFEh
+Type=J1939PG
+CycleTime=50
+Var="Control Output 7A" unsigned 0,16 -h
+Var="Control Output 7B" unsigned 16,16 -h
+Var="Control Output 8A" unsigned 32,16 -h
+Var="Control Output 8B" unsigned 48,16 -h
